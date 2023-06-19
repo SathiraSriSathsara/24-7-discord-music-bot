@@ -50,3 +50,12 @@ This is a simple Discord music bot written in Python that can play an MP3 file o
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
+
+
+<br>
+
+<div align="center">
+	<img src="https://github.com/SathiraSriSathsara/SathiraSriSathsara/blob/main/icon.png" width="40">
+	<h4>Sathira Sri Sathsara @ 2023</h4>
+</div>	
+
