@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import asyncio
 
 bot = commands.Bot(command_prefix='!')
 
@@ -16,7 +17,7 @@ async def on_ready():
         return print('Invalid voice channel ID.')
 
     voice_client = await channel.connect()
-    
+
     while True:
         voice_client.play(discord.FFmpegPCMAudio(file_path))
         await asyncio.sleep(voice_client.source.duration)
